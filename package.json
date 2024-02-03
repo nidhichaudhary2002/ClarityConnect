@@ -1,0 +1,20 @@
+{
+  "name": "clarityconnect",
+  "version": "1.0.0",
+  "description": "video meet app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "npm server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nidhi Chaudhary",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.17.1",
+    "nodemon": "^3.0.3"
+  }
+}
