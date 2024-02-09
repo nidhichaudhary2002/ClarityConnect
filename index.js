@@ -1,6 +1,5 @@
 import express from 'express';
 const app = express();
-// const { auth } = require('express-openid-connect');
 import { auth } from 'express-openid-connect';
 import { renderingHome } from './routes/renderingHomePage.js';
 import { config } from 'dotenv';
