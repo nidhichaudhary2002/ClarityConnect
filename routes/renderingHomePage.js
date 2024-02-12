@@ -1,7 +1,5 @@
-import app from '../index.js';
+// import path from 'path';
 
 export function renderingHome(res, req) {
-  app.get('', (res, req) => {
-    res.render('home');
-  });
+  res.render("home");
 }

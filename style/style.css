@@ -1,6 +1,61 @@
-.body{
-    --sage:var(#ECF4D6);
-    --turquoise:var(#9AD0C2);
-    --navy:var(#265073);
-    --teal:var(#2D9596);
+:root {
+    --sage:#ECF4D6;
+    --turquoise:#9AD0C2;
+    --navy:#265073;
+    --teal:#2D9596;
 }
+
+/* style.css */
+
+.form-data {
+    background-color: var(--teal);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-data input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: var(--sage);
+    border-radius: 10px ; /* Add red border */
+  }
+  
+.inner-form{
+    background-color: var(--turquoise); 
+    border: 2px solid var(--teal);
+    border-radius: 10px;
+    padding: 17px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-data h1 {
+    margin-bottom: 20px;
+}
+
+  .form-data ul {
+    list-style: none;
+  }
+  
+  .form-data label {
+    display: block; 
+    margin-bottom: 10px; 
+  }
+
+   ul {
+    padding-left: 0rem;
+    }
+  
+  .form-data input {
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 20px;
+  }
+  
